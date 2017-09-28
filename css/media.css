@@ -1,0 +1,371 @@
+@media only screen and (min-width: 992px) and (max-width: 1150px) {
+    #header {
+   		width: 870px;
+    }
+
+    .sectionwrapper .header, .sectionwrapper .content {
+    	width: 870px;
+	}
+
+	.wideleft .section_left {
+	    width: 580px;
+	}
+
+	#footer {
+    	width: 870px;
+	}
+	#header .navigation .menu .page_item {
+    	width: 90px;
+	}
+	#header .headerlinks {
+		left: 295px !important;
+	}
+	body{
+		font-size: 12px;
+	}
+	#footer .footerleft {
+    	width: 320px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #header {
+   		width: 700px;
+    }
+
+    .sectionwrapper .header, .sectionwrapper .content {
+    	width: 700px;
+	}
+
+	.wideleft .section_left {
+	    width: 420px;
+	}
+
+	.wideleft .section_right {
+    	width: 235px;
+	}
+
+	#footer {
+    	width: 700px;
+	}
+	#header .navigation .menu .page_item {
+    	width: 70px;
+	}
+	#header .headerlinks {
+		left: 200px !important;
+	}
+	body{
+		font-size: 10px;
+	}
+	#header .headerlinks a .text {
+    	font-size: 11px;
+	}
+	#header .headerlinks a .image img {
+    	width: 65% !important;
+	}
+	#header .headerlinks a:nth-child(3) .image img {
+    	width: 122px !important;
+	}
+	#header .headerlinks a .image {
+    	padding-left: 5px;
+	}
+	h1{
+		font-size: 22px;
+	}
+	#footer .footerleft {
+    	width: 250px;
+	}
+}
+
+@media only screen and (min-width: 668px) and (max-width: 767px) {
+    #header {
+   		width: 580px;
+    }
+
+    .sectionwrapper .header, .sectionwrapper .content {
+    	width: 580px;
+	}
+
+	.wideleft .section_left {
+	    width: 365px;
+	}
+
+	.wideleft .section_right {
+    	width: 170px;
+	}
+
+	#footer {
+    	width: 580px;
+	}
+	#header .navigation .menu .page_item {
+    	width: 50px;
+	}
+	#header .headerlinks {
+		left: 155px !important;
+		top: 20px !important;
+	}
+	body{
+		font-size: 10px;
+	}
+	#header .headerlinks a .text {
+    	font-size: 11px;
+	}
+	#header .headerlinks a .image img {
+    	width: 65% !important;
+	}
+	#header .headerlinks a:nth-child(3) .image img {
+    	width: 50px !important;
+    	height: 25px !important;
+	}
+	#header .headerlinks a .image {
+    	padding-left: 5px;
+	}
+	h1{
+		font-size: 22px;
+	}
+	#footer .footerleft {
+    	width: 194px;
+	}
+	.section_right img{
+		width:100%;
+	}
+	#sectionwrapper2 table td img{
+		width:100% !important;
+		height:auto  !important;
+	}
+	#footer .footerright {
+		width: 180px;
+	}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 667px) {
+	h1 {
+	    font-size: 23px;
+	    margin-top: 20px;
+	}
+	#logo{
+		width: 100%;
+    	text-align: center;
+	}
+	#logo a img {
+		width: 58% !important;
+		padding-bottom: 10px !important;
+	}
+	#header {
+		width: 100%;
+	}
+	#header .headerlinks {
+		position: inherit !important;
+    	text-align: center !important;
+    	top: 0px !important;
+    	right: 0px !important;
+    	left: 0px !important;
+	}
+	#header .navigation {
+	    position: inherit;
+	     left: 0px; 
+	}
+	#header .navigation .menu .page_item {
+    	width: 100%;
+    	margin-right: 0px;
+	}
+	#header .navigation .menu .page_item a {
+    	margin-top: 10px;
+	}
+	.sectionwrapper .content {
+	    width: 80%;
+	}
+	.wideleft .section_left {
+	    width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	}
+	.wideleft .section_right {
+	    width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	    text-align: center;
+	}
+	#sectionwrapper2 table td{
+		display: inline-block;
+    	width: 100%;
+    	text-align: center;
+	}
+	#footer {
+	    width: 80%;
+	    text-align: center;
+	}
+	#footer .footerleft {
+	    float: inherit;
+	    width: 100%;
+	    background-position: center;
+	}
+	#footer .footerright {
+	    float: inherit;
+	    background-position: center;
+	    width: 100%;
+	}
+	#section3 img{
+		width:100%;
+		height:100%;
+	}
+	#section4 img{
+		width:100%;
+		height:100%;
+	}
+	#section5 img{
+		width:70%;
+		height:100%;
+	}
+	#section5 table td{
+		display:inline-block;
+		text-align: center;
+	}
+	#section6 img{
+		width:100%;
+		height:100%;
+	}
+	#section7 img{
+		width:100%;
+		height:100%;
+	}
+	#sectionwrapper6 .section_left .section_left {
+		width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	}
+	#sectionwrapper6 .section_left .section_right {
+		width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	}
+	#sectionwrapper6 .section_left .section_right img{
+		width: 100%;
+    	height: 100%;
+	}
+	.wideright .section_left {
+	    width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	    text-align: center;
+	}
+	.wideright .section_right {
+	    width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	    text-align: center;
+	}
+
+	#section5 .text{
+		text-align: left;
+	}
+
+	#sectionwrapper6 .text {
+		text-align: left;
+	}
+	.threeitem .contentitem {
+	    border-left: 0px;
+	}
+	.sectionwrapper .header, .sectionwrapper .content {
+	    width: 80%;/*
+	    text-align: center;*/
+	}
+	.sectionwrapper {
+	    padding-bottom: 20px;
+	}
+	#sectionwrapper3 .section{
+			text-align: center;
+
+	}
+	#sectionwrapper3 .section ul{
+		margin-left: 0px !important;
+
+	}
+	#section5 table td {
+    	width: 100%;
+	}
+	.threeitem .contentitem {
+	    width: 100%;
+	}
+	.contentitemtab {
+	    position: inherit;
+	    bottom: 0px;
+	    left: 0px;
+	}
+	.modal-body h1{
+		font-size: 18px;
+	}
+	div.shadowbox2 {
+		width: 90%;
+    	height: 100%;
+    	padding: 19px 20px 20px 30px;
+	}
+	.take-the-pledge .shadowbox2 .header {
+	    height: 20%;
+	}
+	.take-the-pledge .shadowbox2 .header .headerimage img {
+	    width: 40%;
+	}
+	.take-the-pledge .shadowbox2 .header .headertext {
+	    left: 0px;
+	    font-size: 24px;
+    	top: 40px;
+	}
+	.take-the-pledge .shadowbox2 .body {
+	    padding: 0px;
+	    overflow: hidden;
+	}
+	div.shadowbox2 .twocolumn .column {
+	    width: 100%;
+	    float: inherit;
+	    padding: 0px;
+	}
+	.take-the-pledge .shadowbox2 .body {
+	    width: 100%;
+	    height: 100%;
+		padding-top: 115px;
+	}
+	.fancybox-skin {
+	    background-image: none;
+	    background-color: #f9f9f9;
+	}
+	.fancybox-inner {
+	    width: 100% !important;
+    	height: 100% !important;
+	}
+	.fancybox-opened {
+	    width: 100% !important;
+	    position: inherit !important;
+	    left: 0px !important;
+	}
+	input[type=text].form-control {
+	    width: 80% !important;
+	    height: 20px !important;
+	}
+	input[type=email].form-control {
+	    width: 80% !important;
+	    height: 20px !important;
+	}
+	.healthy-eating-with-type-2-diabetes .shadowbox2 .header .headertext {
+	    top: -2px;
+	    left: -10px;
+	    font-size: 21px;
+	}
+	.healthy-eating-with-type-2-diabetes .shadowbox2 .body {
+	    padding: 0px;
+	    margin-top: 20px;
+	}
+	div.shadowbox2 .onecolumn .column {
+	    width: 90%;
+	    padding: 0%;
+	}
+	.healthy-eating-with-type-2-diabetes .shadowbox2 .body {
+	    width: 100%;
+	}
+}
+img[usemap] {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	width: auto;
+}

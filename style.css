@@ -1,0 +1,1014 @@
+/*   
+Theme Name: Americas Diabetes Challenge
+Theme URI: http://americasdiabeteschallenge.com
+Description: Custom theme
+Author: Sean Murphy
+Author URI: http://windrosemedia.com
+*/
+html, body
+{
+	padding:0 !important;
+	margin:0 !important;
+	background-image: url(/images/content_bg.png);
+	background-repeat:repeat-y;
+	background-position: center 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	-webkit-font-smoothing: antialiased;
+	color:#303e48;
+	font-size: 14px;
+}
+
+a {
+outline: none;
+}
+
+#headerwrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid #000000;
+}
+#header
+{
+	width: 1024px;
+	margin: 0 auto;
+	position:relative;
+}
+#header .headerlinks
+{
+	position: absolute;
+	top: 15px;
+	right: 40px; /* was 10 px */
+	vertical-align: middle;
+}
+#header .headerlinks a
+{
+	display:inline-block;
+	vertical-align: middle;
+}
+#header .headerlinks a .text
+{
+	display:inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	padding-right: 10px;
+	text-align:right;
+}
+#header .headerlinks a .image
+{
+	display:inline-block;
+	vertical-align: middle;
+	/*padding-right: 10px;*/
+	padding-left: 20px;
+}
+#header .navigation
+{
+	position:absolute;
+	bottom:0;
+	left:24px; /* was 378px */
+}
+#header .navigation .menu ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#header .navigation .menu .page_item
+{
+	width:100px;
+	display:inline-block;
+	margin-right: 25px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom: 3px solid #303e48;
+}
+#header .navigation .menu .page_item a
+{
+	text-decoration:none;
+	color:#303e48;
+	margin-bottom: 10px;
+	display: block;
+}
+#header .navigation .menu .current_page_item, 		
+#header .navigation .menu .page_item:hover
+{
+	border-bottom: 3px solid #AF0823;
+}
+#header .navigation .menu .current_page_item a
+{
+	color:#AF0823;
+}
+
+/* MAIN CONTENT */
+
+.sectionwrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	position:relative;
+}
+.light
+{
+
+}
+.filllight
+{
+	background-color: #ffffff;
+}
+.dark
+{
+	background-color: #00827B;
+	color: #ffffff;
+}
+.grey
+{
+	background-color: #DEDEDE;
+}
+.sectionwrapper .header,
+.sectionwrapper .content
+{
+  width: 1024px;
+	margin: 0 auto;
+	position:relative;	
+}
+.wideleft .section_left
+{
+	width: 700px; /* was 525px */
+	float:left;
+	padding: 5px 35px 0 0;
+}
+.wideleft .section_right
+{
+	width: 250px;
+	float:right;
+	padding: 40px 5px 0 0;	/* was 40px 45px */
+}
+
+.wideright .section_left
+{
+	width: 304px;
+	float:left;
+	padding: 0 0 25px 40px;		
+}
+.wideright .section_right
+{
+	width: 600px;
+	float:right;
+	padding: 40px 15px 0; /* padding: 40px 15px; */
+}
+img.rightpadding
+{
+	padding-right: 10px;
+}
+
+.threeitem .contentitem
+{
+	width: 327px;
+	display:inline-block;
+	text-align: center;
+	border-left: 2px solid #ffffff;
+	position:relative;
+}
+.threeitem .contentitem:first-child
+{
+	border-left: 0;
+}
+
+h1
+{
+	font-size: 32px;
+	color:#AF0823;
+	font-weight: 600;
+	line-height: 32px;
+	margin-top:0;
+}
+h2
+{
+	font-size: 18px;
+	color:#AF0823;
+	font-weight: 500;
+	line-height: 22px;
+	margin-top:0;
+}
+h3
+{
+	font-size: 20px;
+	color:#AF0823;
+	font-weight: 600;
+	line-height: 32px;
+	margin-top:0;
+}
+a
+{
+	color:#ae0922;
+}
+.dark h1
+{
+	color: #ffffff;
+}
+.dark a
+{
+	color: #ffffff;
+}
+
+/* TAKE THE PLEDGE */
+
+.take-the-pledge .contentitemtext
+{
+	font-size: 16px; /* was 20px */
+	width: 237px;
+	margin: 0 auto;
+	font-weight: 600; /* Added 2015.03 to make text bolder */
+}
+.take-the-pledge .sectionwrapper .header
+{
+  margin-top: 100px;
+}
+.take-the-pledge .sectionwrapper .headerimage
+{
+	position:absolute;
+	top: -132px;
+}
+.contentitemtext
+{
+	position: absolute;
+	top: 30px; /* was 40px */
+	left: 42px; /* was 89px */
+}
+.contentitemimage
+{
+	margin: 89px auto 45px;
+}
+.contentitemtab
+{
+	background-image: url(/images/missionbutton.png);
+	background-repeat: no-repeat;
+	width: 283px;
+	height: 77px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: -22px;
+	left: 26px;
+}
+.contentitemtab .text
+{
+	padding: 20px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/* SIDEBARS */
+
+.makethecommitment
+{
+	width: 384px;
+	height: 290px; /* was 328px */
+	/* background-image: url(http://wpc.230d.edgecastcdn.net/00230D/gci/adc/makethecommitment.png); */
+	background-image: url(/images/makethecommitment.png);
+	background-repeat: no-repeat;
+	background-size: 380px;
+}
+.makethecommitment .makethecommitment_header
+{
+	padding-top: 130px;
+	color: #00827B;
+	font-size: 20px;
+	font-weight:800;
+	text-align: center;
+	width:100%;
+}
+.makethecommitment .makethecommitment_body
+{
+	padding-top: 10px;
+	color: #303e48;
+	font-size: 16px; /* was 18px */
+	font-weight:600;
+	text-align: center;
+	width:100%;
+	line-height: 24px; /* was 26px */
+}
+
+/* Home Page */
+
+.home #sectionwrapper2
+{
+	margin-top: 0px; /* was 50px */
+}
+.home #sectionwrapper2 .section_left .image
+{
+	position:absolute;
+	top: -128px;
+	left: 60px;
+}	
+
+.home #sectionwrapper2 .section_left .text
+{
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: 210px; /* was 260px */
+	display: block;
+	width: 242px;
+	text-align: center;
+	padding-left: 50px;
+}
+.home #sectionwrapper2 .section_right .text
+{
+	font-size: 15px;
+	padding-right: 35px;
+}
+
+/* Pledge Page */
+
+.takethepledge
+{
+	width: 384px;
+	height: 140px; /* was 154px */
+	background-image: url(http://wpc.230d.edgecastcdn.net/00230D/gci/adc/takethepledge.png);
+	background-repeat: no-repeat;
+	background-size: 380px;
+	display:block;
+	position:relative;
+}
+.takethepledge span
+{
+	color: #ffffff;
+	position: absolute;
+	left: 189px;
+	top: 46px;
+	font-size: 23px;
+	font-weight: bold;
+}
+.takethepledge span.takethepledge_em
+{
+	color: #ffffff;
+	position: absolute;
+	top: 63px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.take-the-pledge .threeitem p {display:none;}
+
+.take-the-pledge .shadowbox2 .header 
+{
+	position:relative;
+	height: 160px;
+}
+.take-the-pledge .shadowbox2 .header .headerimage
+{
+	position: absolute;
+	top: -30px;
+	left: -35px;
+}
+.take-the-pledge .shadowbox2 .header .headertext
+{
+	position: absolute;
+	top: -2px;
+	left: 299px;
+	font-size: 35px;
+}
+.take-the-pledge .shadowbox2 .body
+{
+	padding: 0 50px;
+	width: 825px;
+	height: 273px;
+	overflow:auto;
+	
+}
+
+/*.take-the-pledge .shadowbox2 .body
+{
+	padding: 0 50px;
+}
+*/
+.take-the-pledge .pledgepopuptable
+{
+	border-collapse:collapse;
+	width: 800px;
+}
+.take-the-pledge .pledgepopuptable th
+{
+	border:1px solid #252f38;
+	background-color:#252f38;
+	color:#ffffff;
+	width: 100px;
+}
+.take-the-pledge .pledgepopuptable td
+{
+	border:1px solid #252f38;
+	color:#252f38;
+}
+.take-the-pledge .chart
+{
+	padding-left: 30px;
+}
+
+.take-the-pledge #footerwraper
+{
+	/* padding-top: 40px; */
+	/* Keep this for IE 8 - Hannah issue */
+	padding-top: 40px;
+}}
+
+.take-the-pledge .shadowbox2 .footer
+{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 388px;
+}
+.take-the-pledge .shadowbox2 .footer a
+{
+	display: block;
+}
+
+.take-the-pledge .shadowbox2 .footer a span
+{
+	width: 200px;
+	height: 55px;
+	display: block;
+}
+
+/* Facts Page */
+
+.know-the-facts #section2 .section_left
+{
+	padding-top: 40px;
+} 
+.know-the-facts #section5 .twocircles
+{
+	background-image: url(/images/two_circles.png);
+	width:437px;
+	height: 297px;
+	position:relative;
+	
+}
+.know-the-facts #section5 .twocircles
+{
+	color:#ffffff !important;
+}
+.know-the-facts #section5 .twocircles  h1 
+{
+	color:#ffffff !important;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 21px;
+	margin-top: 0;
+}
+.know-the-facts #section5 .twocircles ul
+{
+	padding-left: 31px;
+	width: 150px;
+	font-size: 12px;
+}
+.know-the-facts #section5 .twocircles .leftcircle
+{
+	width: 200px;
+	position: absolute;
+	top: 35px;
+	left: 36px;
+}
+.know-the-facts #section5 .twocircles .rightcircle
+{
+	width: 200px;
+	height 297px;
+	position:absolute;
+	top: 101px;
+	left: 241px;
+}
+.know-the-facts #section6 .section_left img
+{
+	padding-top: 40px;
+}
+
+/* Hispanics Page */
+
+.healthy-eating-with-type-2-diabetes #sectionwrapper2 .section_left .image
+{
+	padding-left: 25px;
+	padding-top: 47px;
+}
+
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 
+{
+	padding-top: 10px;
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipes
+{
+	padding:0px 0 0px 0px;
+	margin:0;
+	
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipes-bottomrow
+{
+	padding:20px 0 20px 180px;
+	margin:0;
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe
+{
+	width:150px;
+	height:205px;
+	display:inline-block;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe .title
+{
+	position:absolute;
+	top:5px;
+	color:#00938E;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe .label
+{
+	position: absolute;
+	bottom: 19px;
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe1
+{
+	background-image: url(/images/MorrocanMeatballs_noline.png);
+	margin-bottom: 0px;
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe2
+{
+	background-image: url(/images/ArrozConLeche_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe3
+{
+	background-image: url(/images/ArrozConPollo_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe4
+{
+	background-image: url(/images/PapayaOrangeSparkler_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe5
+{
+	background-image: url(/images/PineappleManchegoSkewers_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe6
+{
+	background-image: url(/images/SpinachEnchiladasTomatoSauce_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe7
+{
+	background-image: url(/images/SmokedSalmonMangoSalad_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe8
+{
+	background-image: url(/images/AsparagusShallotParsleySauce_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe9
+{
+	background-image: url(/images/HuevosCubanos_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe10
+{
+	background-image: url(/images/BlackBeanTurkeySausageSoup_noline.png);
+}
+.healthy-eating-with-type-2-diabetes #sectionwrapper3 .recipe11
+{
+	background-image: url(/images/GarlicCilantroSoup_noline.png);
+}
+
+/*.healthy-eating-with-type-2-diabetes .content p {display:none;}*/
+
+.healthy-eating-with-type-2-diabetes .shadowbox2 .header 
+{
+	position:relative;
+	height: 35px;
+}
+.healthy-eating-with-type-2-diabetes .shadowbox2 .header .headerimage
+{
+	position: absolute;
+	top: -30px;
+	left: -35px;
+}
+.healthy-eating-with-type-2-diabetes .shadowbox2 .header .headertext
+{
+	position: absolute;
+	top: -2px;
+	left: 47px;
+	font-size: 35px;
+	color: #AF0823;
+}
+.healthy-eating-with-type-2-diabetes .shadowbox2 .body
+{
+	padding: 0 50px;
+	width: 825px;
+	height: 403px;
+	overflow:auto;
+	
+}
+
+.healthy-eating-with-type-2-diabetes .shadowbox2 .body
+{
+	padding: 0 50px;
+}
+
+.healthy-eating-with-type-2-diabetes .shadowbox2 .footer
+{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 388px;
+}
+.healthy-eating-with-type-2-diabetes .shadowbox2 .footer a
+{
+	display: block;
+}
+
+.healthy-eating-with-type-2-diabetes .shadowbox2 .footer a span
+{
+	width: 200px;
+	height: 55px;
+	display: block;
+}
+
+/* AA Page*/
+
+.african-americans-and-t2d #sectionwrapper2 .section_left
+{
+	font-size: 22px;	
+}
+
+.african-americans-and-t2d #sectionwrapper2 .section_left li
+{
+	padding-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+#footerwraper
+{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	min-height: 100px;
+}
+#footer
+{
+	width: 1024px;
+	margin: 0 auto;
+	position:relative;
+}
+#footer .footerleft
+{
+	background-image: url(/images/logo_footer_merck.png);
+	background-repeat: no-repeat;
+	float: left;
+	width: 423px;
+	height: 75px;
+	display: block;
+}
+
+/*#footer .footerright
+{
+	float:right;
+	width:560px;
+	display:block;
+}
+*/#footer .footerright
+{
+	background-image: url(/images/iheartmedia_logo.png);
+	background-repeat: no-repeat;
+	/*background-size: 173px;*/
+	float: right;
+	width: 200px;
+	height: 103px;
+	display:block;
+	margin-top: 10px;
+}
+#footer .footerleft .prtcode
+{
+	font-size: 8px;
+	padding-top: 62px;
+}
+.widget 
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.clear
+{
+	clear:both;
+}
+
+/* FANCYBOX */
+
+div.hidden {display:none;}
+.fancybox-skin {
+	position: relative;
+	background-image:url(http://wpc.230d.edgecastcdn.net/00230D/gci/adc/popup_dl.png);
+	width: 477px; /* 777px */
+	height: 517px;
+	padding:0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.fancybox-opened .fancybox-skin
+{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+.fancybox-close 
+{
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+	background-image: none !important;
+}
+.fancybox-inner
+{
+	overflow: visible !important;
+}
+
+/* Added 2nd skin for fancybox for use on Voices */
+.fancybox2-skin {
+	position: relative;
+	background-image:url(http://wpc.230d.edgecastcdn.net/00230D/gci/adc/popup_back.png);
+	width: 977px;
+	height: 517px;
+	padding:0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.fancybox2-skin .body
+{
+	font-size: 22px;
+	padding: 10px 10px 10px 10px;
+}
+.fancybox-opened .fancybox2-skin
+{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+div.shadowbox2 {width:925px;	height: 445px; overflow-y: visible; padding: 20px 20px 50px 20px; }
+/*div.shadowbox2 p { margin: 0 0 12px 0; font-size: 12px; line-height: 20px;}*/
+div.shadowbox2 p { margin: 0 0 12px 0; font-size: 14px; line-height: 20px;}
+div.shadowbox2 .trphoto {padding:20px 0 20px 20px;}
+div.shadowbox2 .em { color:#009444; }
+
+div.shadowbox2 .twocolumn .column
+{
+	width: 46%;
+	float: left;
+	padding: 2%;
+}
+
+div.shadowbox2 .onecolumn .column
+{
+	width: 96%;
+	padding: 2%;
+}
+
+a.poster {
+	padding-left: 10px;
+}
+
+.blood-sugar-facts .sectionwrapper .content .section_left li
+{
+  margin: 1em 0;
+}
+
+#voices-mini
+{
+	margin-bottom: -350px;
+}
+
+/*#journey
+{
+	background-image: url('/images/corkboard.png');
+	background-repeat: no-repeat;
+	height: 1019px;
+	width: 1440px;
+	padding-left: 330px;
+}*/
+
+#voices-mcgraw-video
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wideright .section_left_full
+{
+	float: left;
+	padding: 0 0 25px 40px;		
+}
+
+.mini-image
+{
+	padding-bottom: 10px;
+}
+
+.wideleft .section_left_toppadding
+{
+	float: left;
+	padding: 40px 0 0 0;
+}
+
+#voice-mcgraw
+{
+	background: url(/images/mcgraw-stamp.png);
+	background-repeat: no-repeat;
+	/*background-size: 300px;*/
+	width: 318px;
+	height: 430px;
+	display: block;
+	position: relative;
+	left: 350px;
+	top: -400px;
+}
+
+#voice-epatha 
+{
+	background: url(/images/epatha-stamp-small.png);
+	background-repeat: no-repeat;
+	width: 159px;
+	height: 215px;
+	display: block;
+	position: relative;
+	left: 100px;
+	top: -470px;
+}
+
+#voice-leticia 
+{
+	background: url(/images/leticia-stamp-small.png);
+	background-repeat: no-repeat;
+	width: 254px;
+	height: 215px;
+	display: block;
+	position: relative;
+	left: 380px;
+	top: -705px;
+}
+
+#voice-goland 
+{
+	background: url(/images/goland-stamp-small.png);
+	background-repeat: no-repeat;
+	width: 159px;
+	height: 215px;
+	display: block;
+	position: relative;
+	left: 750px;
+	top: -935px;
+}
+
+#voice-ada 
+{
+	background: url(/images/ada-logo.png);
+	background-repeat: no-repeat;
+	width: 339px;
+	height: 125px;
+	display: block;
+	position: relative;
+	top: 140px;
+}
+
+#voice-adc
+{
+	background: url(/images/logo.png);
+	background-repeat: no-repeat;
+	width: 378px;
+	height: 190px;
+	display: block;
+	position: relative;
+	left: 330px;
+	top: -150px;
+}
+
+#voice-merck
+{
+	background: url(/images/merck-logo.png);
+	background-repeat: no-repeat;
+	background-size: 325px;
+	width: 325px;
+	height: 95px;
+	display: block;
+	position: relative;
+	left: 700px;
+	top: -180px;
+}
+
+/* 2nd attempt at layout */
+#voices-photos-2
+{
+	height: 600px;
+}
+
+#voice-ada-2
+{
+	width: 339px;
+	height: 125px;
+	position: absolute;
+	left: 150px;
+	top: 420px;
+}
+
+#voice-merck-2
+{
+	width: 325px;
+	height: 95px;
+	position: absolute;
+	left: 560px;
+	top: 435px;
+}
+
+#voice-mcgraw-2
+{
+	width: 159px;
+	height: 215px;
+	position: absolute;
+	left: 300px;
+	top: 180px;
+}
+
+#voice-epatha-2
+{
+	width: 159px;
+	height: 215px;
+	position: absolute;
+	left: 100px;
+	top: 180px;
+}
+
+#voice-leticia-2
+{
+	width: 254px;
+	height: 215px;
+	position: absolute;
+	left: 480px;
+	top: 180px;
+}
+
+#voice-goland-2
+{
+	width: 159px;
+	height: 215px;
+	position: absolute;
+	left: 750px;
+	top: 180px;
+}
+
+.horizontal-bar
+{
+	/*padding: 20px 0 20px 0;*/
+	padding: 10px 0 10px 0;
+}
+
+.wraptext-left
+{
+	float: left; 
+	margin: 10px;
+}
+
+.question
+{
+	padding-right: 40px;
+}
+
+img 
+{
+	border: none;
+}
+
+img.shrink {
+  -webkit-transform: scale(0.9); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.9); /* FF3.5+ */
+      -ms-transform: scale(0.9); /* IE9 */
+       -o-transform: scale(0.9); /* Opera 10.5+ */
+          transform: scale(0.9);
+ }
